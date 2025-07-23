@@ -2,6 +2,7 @@ import { useGSAP } from '@gsap/react'
 import { SplitText } from 'gsap/all'
 import gsap from 'gsap'
 import React, { useRef } from 'react'
+import video from '/video/output.mp4'
 import { useMediaQuery } from 'react-responsive'
 
 const Hero = () => {
@@ -82,7 +83,7 @@ const Hero = () => {
         </div>
     </section>
     <div className='video absolute inset-0'>
-        <video ref={videoRef} src='/video/output.mp4' preload='auto' muted playsInline autoPlay style={{width:'100%', height:'100%',objectFit:'cover',opacity:0.8}}/>
+        <video ref={videoRef} src={video} preload='auto' muted playsInline autoPlay style={{width:'100%', height:'100%',objectFit:'cover',opacity:0.8}}/>
     </div>
     </>
   )
