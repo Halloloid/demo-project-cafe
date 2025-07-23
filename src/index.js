@@ -1,3 +1,8 @@
+import image1 from '/images/drink1.png'
+import image2 from '/images/drink2.png'
+import image3 from '/images/drink3.png'
+import image4 from '/images/drink4.png'
+
 const profileLists = [
  {
 	imgPath: "/images/profile1.png",
@@ -52,7 +57,7 @@ const sliderLists = [
  {
 	id: 1,
 	name: "Classic Mojito",
-	image: "/images/drink1.png",
+	image: image1,
 	title: "Simple Ingredients, Bold Flavor",
 	description:
 	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
@@ -60,7 +65,7 @@ const sliderLists = [
  {
 	id: 2,
 	name: "Raspberry Mojito",
-	image: "/images/drink2.png",
+	image: image2,
 	title: "A Zesty Classic That Never Fails",
 	description:
 	 "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
@@ -68,7 +73,7 @@ const sliderLists = [
  {
 	id: 3,
 	name: "Violet Breeze",
-	image: "/images/drink3.png",
+	image: image3,
 	title: "Simple Ingredients, Bold Flavor",
 	description:
 	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
@@ -76,7 +81,7 @@ const sliderLists = [
  {
 	id: 4,
 	name: "Curacao Mojito",
-	image: "/images/drink4.png",
+	image: image4,
 	title: "Crafted With Care, Poured With Love",
 	description:
 	 "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
