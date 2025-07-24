@@ -67,7 +67,7 @@ const Hero = () => {
   return (
     <>
     <section id="hero">
-        <h1 className='title'>OD07</h1>
+        <h1 className='title'>CAFE</h1>
 
         <div className='body'>
             <div className='content mt-8'>
