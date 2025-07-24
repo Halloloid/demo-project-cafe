@@ -52,23 +52,14 @@ const App = () => {
     });
 
     function checkReady() {
-      if (videoLoaded) {
-        setIsLoading(false);
+      if (videoLoaded && imagesLoaded) {
+        setTimeout(() => setIsLoading(false), 500);
       }
     }
   }, []);
 
 
   return (
-    // <main>
-    //   <Hero/>
-    //   <Cafes/>
-    //   <About/>
-    //   <Gallery/>
-    //   <Menu/>
-    //   <Contact/>
-    //   <Footer/>
-    // </main>
     <>
       {isLoading && <Loader />}
 
